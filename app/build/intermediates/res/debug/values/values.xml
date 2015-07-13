@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">JunGiP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first__rank">First_Rank</string>
+    <string name="title_activity_first__rank1">First_Rank1</string>
+    <string name="title_activity_first__rank2">First_Rank2</string>
+    <string name="title_activity_first__rank3">First_Rank3</string>
+    <string name="title_activity_first__rank4">First_Rank4</string>
+    <string name="title_activity_first__rank5">First_Rank5</string>
+    <string name="title_activity_first__rank6_1">First_Rank6_1</string>
+    <string name="title_activity_first__rank6_2">First_Rank6_2</string>
+    <string name="title_activity_first_rank6_1">First_rank6_1</string>
+    <string name="title_activity_second__rank">Second_Rank</string>
+    <string name="title_activity_second__rank1">Second_Rank1</string>
+    <string name="title_activity_second__rank2">Second_Rank2</string>
+    <string name="title_activity_second__rank3">Second_Rank3</string>
+    <string name="title_activity_second__rank4">Second_Rank4</string>
+    <string name="title_activity_second__rank5">Second_Rank5</string>
+    <string name="title_activity_second__rank6_1">Second_Rank6_1</string>
+    <string name="title_activity_second__rank6_2">Second_Rank6_2</string>
+    <string name="title_activity_select__rank">Select_Rank</string>
+    <string name="title_activity_third__rank">Third_Rank</string>
+    <string name="title_activity_third_rank_main1">Third_rank_main1</string>
+    <string name="title_activity_third_rank_main2">Third_rank_main2</string>
+    <string name="title_activity_third_rank_main2_n">Third_rank_main2_n</string>
+    <string name="title_activity_third_rank_main3">Third_rank_main3</string>
+    <string name="title_activity_third_rank_main3_n">Third_rank_main3_n</string>
+    <string name="title_activity_third_rank_main4">Third_rank_main4</string>
+    <string name="title_activity_third_rank_main4_n">Third_rank_main4_n</string>
+    <!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"		
+    android:interpolator="@android:anim/accelerate_interpolator" >
+<!-- android:fillAfter="ture" : 애니메이션이 멈추면 그 상태 그대로 있음. 즉, 162도에 3배 팽창 상태. -->
+
+    <rotate
+        android:duration="100"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="30"
+        android:toDegrees="162" />
+
+    <scale
+        android:duration="10"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="150"
+        android:repeatMode="reverse"
+        android:toXScale="3.0"
+        android:toYScale="3.0" />
+
+</set><!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/anim/pen_162.xml -->

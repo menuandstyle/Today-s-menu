@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jungip.Third_rank_main3"
+    tools:ignore="MergeRootFrame" >
+<ImageView 
+    android:layout_width = "fill_parent"
+    android:layout_height="fill_parent"
+    android:src = "@drawable/third_rank_main2"/>
+
+
+    <Button
+        android:id="@+id/bt_third_rank_main3_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_third_rank_main2_3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/third_rank_main2_back"/>
+
+    <Button
+        android:id="@+id/bt_third_rank_main3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_third_rank_main3_back"
+        android:layout_alignLeft="@+id/bt_third_rank_main3_1"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/third_rank_main2_3" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_third_rank_main3_input1"
+        android:layout_alignBottom="@+id/et_third_rank_main3_input1"
+        android:layout_alignLeft="@+id/bt_third_rank_main3_2"
+        android:background="@drawable/third_rank_main2_1" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main3_input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_third_rank_main3_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_third_rank_main3_input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main3_3"
+        android:layout_alignBottom="@+id/bt_third_rank_main3_3"
+        android:layout_alignLeft="@+id/et_third_rank_main3_input2"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_third_rank_main3_3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/third_rank_main2_2" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main3_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main3_2"
+        android:layout_alignBottom="@+id/bt_third_rank_main3_2"
+        android:layout_alignLeft="@+id/et_third_rank_main3_input1"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main3_next"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main3_back"
+        android:layout_alignBottom="@+id/bt_third_rank_main3_back"
+        android:layout_alignRight="@+id/et_third_rank_main3_input3"
+        android:background="@drawable/third_rank_main2_next" />
+
+</RelativeLayout>

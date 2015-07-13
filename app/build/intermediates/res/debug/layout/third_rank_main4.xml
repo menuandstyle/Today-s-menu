@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jungip.Third_rank_main4"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView 
+    android:layout_width = "fill_parent"
+    android:layout_height="fill_parent"
+    android:src = "@drawable/third_rank_main2"/>
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_third_rank_main4_next"
+        android:layout_alignLeft="@+id/bt_third_rank_main4_3"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/third_rank_main4_4" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main4_input4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main4_4"
+        android:layout_alignBottom="@+id/bt_third_rank_main4_4"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_third_rank_main4_input4"
+        android:layout_alignLeft="@+id/bt_third_rank_main4_2"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/third_rank_main2_3" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main4_input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main4_3"
+        android:layout_alignBottom="@+id/bt_third_rank_main4_3"
+        android:layout_alignLeft="@+id/et_third_rank_main4_input4"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_third_rank_main4_input3"
+        android:layout_alignLeft="@+id/bt_third_rank_main4_1"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/third_rank_main2_2" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main4_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main4_2"
+        android:layout_alignBottom="@+id/bt_third_rank_main4_2"
+        android:layout_alignLeft="@+id/et_third_rank_main4_input3"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_third_rank_main4_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/third_rank_main2_1" />
+
+    <EditText
+        android:id="@+id/et_third_rank_main4_input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main4_1"
+        android:layout_alignBottom="@+id/bt_third_rank_main4_1"
+        android:layout_alignRight="@+id/et_third_rank_main4_input2"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_third_rank_main4_input4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="14dp"
+        android:background="@drawable/third_rank_main2_back" />
+
+    <Button
+        android:id="@+id/bt_third_rank_main4_next"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_third_rank_main4_back"
+        android:layout_alignBottom="@+id/bt_third_rank_main4_back"
+        android:layout_alignRight="@+id/et_third_rank_main4_input4"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/third_rank_main2_next" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/layout/third_rank_main4.xml -->

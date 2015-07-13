@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context="com.example.jungip.Second_Rank"
+    tools:ignore="MergeRootFrame" >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/second_rank_main1" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_yangsik"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_second_rank_main1_hansik"
+        android:layout_alignBottom="@+id/bt_second_rank_main1_hansik"
+        android:layout_alignLeft="@+id/bt_second_rank_main1_boonsik"
+        android:background="@drawable/second_rank_main1_yangsik" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_other"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/second_rank_main1_other" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_boonsik"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_second_rank_main1_other"
+        android:layout_alignLeft="@+id/bt_second_rank_main1_other"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/second_rank_main1_boonsik" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_hansik"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_second_rank_main1_boonsik"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="58dp"
+        android:background="@drawable/second_rank_main1_hansik" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_joongsik"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_second_rank_main1_hansik"
+        android:layout_below="@+id/bt_second_rank_main1_hansik"
+        android:background="@drawable/second_rank_main1_joongsik" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main1_ilsik"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_second_rank_main1_joongsik"
+        android:layout_below="@+id/bt_second_rank_main1_boonsik"
+        android:background="@drawable/second_rank_main1_ilsik" />
+
+</RelativeLayout>

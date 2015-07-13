@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jungip.Second_Rank4"
+    tools:ignore="MergeRootFrame" >
+    
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/first_rank_main5" />
+
+     <Button
+         android:id="@+id/bt_second_rank_main5_hoo"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/bt_second_rank_main5_joong"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="53dp"
+         android:background="@drawable/first_rank_main5_hoo" />
+
+     <Button
+         android:id="@+id/bt_second_rank_main5_joong"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bt_second_rank_main5_hoo"
+         android:layout_alignLeft="@+id/bt_second_rank_main5_jung"
+         android:layout_marginBottom="35dp"
+         android:background="@drawable/first_rank_main5_joong" />
+
+     <Button
+         android:id="@+id/bt_second_rank_main5_jung"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bt_second_rank_main5_joong"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="36dp"
+         android:background="@drawable/first_rank_main5_jung" />
+    
+    </RelativeLayout>
+

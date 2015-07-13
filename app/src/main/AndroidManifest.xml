@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jungip"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconbread"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.jungip.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jungip.Select_Rank"
+            android:label="@string/title_activity_select__rank" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank"
+            android:label="@string/title_activity_first__rank" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank"
+            android:label="@string/title_activity_second__rank" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_Rank"
+            android:label="@string/title_activity_third__rank" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main1"
+            android:label="@string/title_activity_third_rank_main1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main2"
+            android:label="@string/title_activity_third_rank_main2" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank1"
+            android:label="@string/title_activity_first__rank1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank1"
+            android:label="@string/title_activity_second__rank1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main3"
+            android:label="@string/title_activity_third_rank_main3" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main4"
+            android:label="@string/title_activity_third_rank_main4" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main2_n"
+            android:label="@string/title_activity_third_rank_main2_n" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main3_n"
+            android:label="@string/title_activity_third_rank_main3_n" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Third_rank_main4_n"
+            android:label="@string/title_activity_third_rank_main4_n" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank2"
+            android:label="@string/title_activity_first__rank2" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank2"
+            android:label="@string/title_activity_second__rank2" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank3"
+            android:label="@string/title_activity_first__rank3" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank4"
+            android:label="@string/title_activity_first__rank4" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank3"
+            android:label="@string/title_activity_second__rank3" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank4"
+            android:label="@string/title_activity_second__rank4" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank5"
+            android:label="@string/title_activity_first__rank5" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_rank6_1"
+            android:label="@string/title_activity_first_rank6_1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank6_2"
+            android:label="@string/title_activity_first__rank6_2" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.First_Rank6_1"
+            android:label="@string/title_activity_first__rank6_1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank5"
+            android:label="@string/title_activity_second__rank5" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank6_1"
+            android:label="@string/title_activity_second__rank6_1" >
+        </activity>
+        <activity
+            android:name="com.example.jungip.Second_Rank6_2"
+            android:label="@string/title_activity_second__rank6_2" >
+        </activity>
+    </application>
+
+</manifest>

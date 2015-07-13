@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tv_listName"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textSize="30sp" 
+         android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout><!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/layout/list_item.xml -->

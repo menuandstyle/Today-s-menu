@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context="com.example.jungip.Second_Rank1"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/second_rank_main2" />
+
+    <Button
+        android:id="@+id/bt_second_rank_main2_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/first_rank_main1_box" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/layout/second__rank1.xml -->

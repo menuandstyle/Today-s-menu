@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191A19"
+    android:orientation="vertical"
+    tools:context=".Select_Rank" > <!--해당 액티비티 선언-->    
+     <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    
+        
+    <TextView
+        
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#B4B4B4"
+       android:layout_gravity="center"
+       android:textSize="15sp"
+       android:text=" 1.아무것도 모르겠다\n -생각하기 귀찮다. 다 정해주길 바란다면 click!\n\n2.세부메뉴를 모르겠다\n한식,중식,일식,양식,분식 중에선 골랐는데 세부메뉴는 못 정하겠다면 click!\n\n3.음식점을 못 고르겠다\n음식 메뉴는 정했는데 음식점을 정하지 못하겠다면 click!"
+       android:textStyle="bold"
+       android:typeface="normal" />
+    </LinearLayout>
+ 
+     
+    </ScrollView><!-- From: file:/C:/Users/Soon-won/AndroidStudioProjects4/TodayMenu/app/src/main/res/layout/dialog.xml -->
